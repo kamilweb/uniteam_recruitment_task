@@ -1,4 +1,13 @@
-export const MENU_ITEMS = {
-  ITEM1: 'Zadanie 1',
-  ITEM2: 'Zadanie 2',
-} ;
+export const MENU_TABS = {
+  TAB1: "Task 1",
+  TAB2: "Task 2"
+};
+
+export const API = {
+  PATH: "https://jsonplaceholder.typicode.com/posts"
+};
+
+export const EMPLOYMENT_STATUS = [
+  { key: "Employed", value: "Employed", text: "Employed" },
+  { key: "Free", value: "Free", text: "Free" }
+];
